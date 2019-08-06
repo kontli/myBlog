@@ -1,0 +1,40 @@
+<template>
+  <canvas id="pinkboard"></canvas>
+</template>
+
+<script>
+export default {
+  name: 'Love',
+  data () {
+    return {
+      msg: ''
+    }
+  }
+}
+
+
+</script>
+
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000;
+}
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.aa{
+  position: fixed;
+  left: 50%;
+  bottom: 10px;
+  color: #ccc
+}
+</style>
