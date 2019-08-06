@@ -1,6 +1,7 @@
 <template>
     
   <div class="eyes">
+    <button class="buttonClass" @click="go">喜欢我你就点我</button>
 <div class="box">
 <div class="div1"><img src="../assets/1.jpg" width="100%" height="100%"></div>
 <div class="div2"><img src="../assets/2.jpg" width="100%" height="100%"></div>
@@ -9,8 +10,6 @@
 <div class="div5"><img src="../assets/5.jpg" width="100%" height="100%" ></div>
 <div class="div6"><img src="../assets/6.jpg" width="100%" height="100%" ></div>
 </div>
- <button class="buttonClass" @click="go">点我跳转</button>
- <!-- <a class="buttonClass" href="../love/index.html">链接</a> -->
 </div>
 </template>
 
@@ -116,6 +115,7 @@ transform: rotateY(90deg) translateZ(200px)
     line-height: 30px;
     border-radius: 5px;
     background-color: #5727cc;
+    float: right;
 }
 </style>
 
