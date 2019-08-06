@@ -59,27 +59,27 @@ position: absolute;
 }
 /*调整位置，制作成一个六边形*/
 .box .div1{
-background: green;
+background: #bec7ea;
 transform: translateZ(100px);
 }
 .box .div2{
-background: green;
+background: #bec7ea;
 transform: translateZ(-100px);
 }
 .box .div3{
-background: green;
+background: #bec7ea;
 transform: rotateX(90deg) translateZ(100px);
 }
 .box .div4{
-background: green;
+background: #bec7ea;
 transform: rotateX(270deg) translateZ(100px);
 }
 .box .div5{
-background: green;
+background: #bec7ea;
 transform: rotateY(-90deg) translateZ(100px);
 }
 .box .div6{
-background: green;
+background: #bec7ea;
 transform: rotateY(90deg) translateZ(100px);
 }
 /*添加3D旋转效果 让其绕X、Y轴同时旋转90度*/
